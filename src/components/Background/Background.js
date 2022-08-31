@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import styles from './Background.module.scss';
+import Logo from "../Logo/Logo";
 const contentful = require('contentful');
 
 const Background = () => {
     const [backgroundImage, setBackgroundImage] = useState();
+
     useEffect(() => {
 
 
@@ -27,7 +30,13 @@ const Background = () => {
 
 
     return (
-        <img src={backgroundImage}/>
+        <>
+            <div className={styles.Background}>
+                <img src={backgroundImage}/>
+                <Logo/>
+            </div>
+            <div className={styles.Noise}> </div>
+        </>
     );
 }
 

@@ -1,0 +1,31 @@
+.Logo {
+  position: absolute;
+  bottom: 14vh;
+  right: 1vw;
+  h1 {
+    color: #444794;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+  span {
+    display: block;
+    text-align: right;
+    line-height: .9em;
+    &.h1FirstName {
+      font-size: 7vw;
+      font-style: italic;
+      letter-spacing: -4px;
+      color: #e2cfb7;
+    }
+    &.h1LastName {
+      font-family: "NT Wagner", serif;
+      font-size: 9vw;
+      text-transform: uppercase;
+    }
+  }
+  .occupation {
+    color: #FFD5E5;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-size: 4vw;
+  }
+}

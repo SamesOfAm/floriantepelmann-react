@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+}
+
+.Card {
+  width: 35vw;
+  height: 25vw;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0 0 45px #444;
+  cursor: pointer;
+  transition: filter 400ms;
+  > * {
+    width: 65%;
+  }
+  &:hover {
+    filter: brightness(.7);
+  }
+}
+
+.videoSlot {
+  position: absolute;
+}

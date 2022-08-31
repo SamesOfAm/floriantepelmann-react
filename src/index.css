@@ -2,3 +2,13 @@
   font-family: "Superclarendon";
   src: url("./assets/fonts/SuperclarendonRegular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Big Caslon";
+  src: url("./assets/fonts/BigCaslonMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NT Wagner";
+  src: url("./assets/fonts/NTWagner.otf") format("opentype");
+}

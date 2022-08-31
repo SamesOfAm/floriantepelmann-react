@@ -1,0 +1,21 @@
+.Works {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #444794;
+  > div:nth-child(1n) {
+    > div {
+      margin-left: 7vw;
+      margin-right: auto;
+    }
+  }
+  > div:nth-child(2n) {
+    > div {
+      margin-right: 7vw;
+      margin-left: auto;
+      > div:first-child {
+        float: right;
+      }
+    }
+  }
+}
